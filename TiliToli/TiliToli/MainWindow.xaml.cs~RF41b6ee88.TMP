@@ -1,0 +1,91 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace TiliToli
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public int db = 0;
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            Button egyikGomb = sender as Button;
+            Button nullaGomb = (Button)FindName("Button0");
+            int vtav = Math.Abs((int)(egyikGomb.Margin.Left - nullaGomb.Margin.Left));
+            int ftav = Math.Abs((int)(egyikGomb.Margin.Top - nullaGomb.Margin.Top));
+            if ((vtav < 115 && ftav == 0) || (ftav < 115 && vtav == 0))
+            {
+                var seged = egyikGomb.Margin;
+                egyikGomb.Margin = nullaGomb.Margin;
+                nullaGomb.Margin = seged;
+                db++;
+                Lepesszam.Content = "Lépésszám: " + db;
+            }
+        }
+
+        private void _new_Click(object sender, RoutedEventArgs e)
+        {
+            Button nullaGomb = (Button)FindName("Button0");
+
+            List<int> szamok = new List<int>();
+            db = 0;
+            Lepesszam.Content = "Lépésszám:";
+            int x = 0;
+            int[,] M = new int[3, 3];
+            Random r = new Random();
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (i == 2 && j == 2)
+                    {
+                        M[i, j] = 0;
+                    }
+                    else
+                    {
+                        M[i, j] = x + 1;
+                        x += 1;
+                    }
+                }
+                
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (M[i,j]==0 && (i == 3 && j == 3))
+                    {
+                        szamok[0] = M[i-1, j];
+                        szamok[1] = M[i, j - 1];
+                        x = r.Next(0, 2);
+                        int szam = szamok[x]
+                        Button egyikGomb = (Button)FindName("Button1");
+                        var seged = egyikGomb.Margin;
+                        egyikGomb.Margin = nullaGomb.Margin;
+                        nullaGomb.Margin = seged;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\bin\Debug\TiliToli.exe.config
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\bin\Debug\TiliToli.exe
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\bin\Debug\TiliToli.pdb
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli.csprojAssemblyReference.cache
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\MainWindow.g.cs
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\App.g.cs
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli_MarkupCompile.cache
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli_MarkupCompile.lref
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\MainWindow.baml
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli.g.resources
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli.Properties.Resources.resources
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli.csproj.GenerateResource.cache
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli.csproj.CoreCompileInputs.cache
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli.exe
+C:\Users\Szabó Dániel Márk\source\repos\TiliToli\TiliToli\obj\Debug\TiliToli.pdb
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\bin\Debug\TiliToli.exe.config
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\bin\Debug\TiliToli.exe
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\bin\Debug\TiliToli.pdb
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli.csprojAssemblyReference.cache
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\MainWindow.g.cs
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\App.g.cs
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli_MarkupCompile.cache
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli_MarkupCompile.lref
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\MainWindow.baml
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli.g.resources
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli.Properties.Resources.resources
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli.csproj.GenerateResource.cache
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli.csproj.CoreCompileInputs.cache
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli.exe
+C:\Users\szema\OneDrive\Desktop\TiliToli\TiliToli\obj\Debug\TiliToli.pdb

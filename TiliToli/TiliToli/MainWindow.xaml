@@ -1,0 +1,23 @@
+﻿<Window x:Class="TiliToli.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiliToli"
+        mc:Ignorable="d"
+        Title="Tili-Toli" Height="600" Width="500" Topmost="True" Background="Yellow">
+    <Grid RenderTransformOrigin="0.515,0.494">
+        <Button Content="1" Name="Button1" HorizontalAlignment="Left" Height="145" Margin="23,61,0,0" VerticalAlignment="Top" Width="145" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Focusable="False" Foreground="Yellow"/>
+        <Button Content="2" Name="Button2" HorizontalAlignment="Left" Height="145" Margin="175,61,0,0" VerticalAlignment="Top" Width="145" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Foreground="Yellow"/>
+        <Button Content="3" Name="Button3" HorizontalAlignment="Left" Height="145" Margin="327,61,0,0" VerticalAlignment="Top" Width="146" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Foreground="Yellow"/>
+        <Button Content="4" Name="Button4" HorizontalAlignment="Left" Height="145" Margin="23,213,0,0" VerticalAlignment="Top" Width="145" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Foreground="Yellow"/>
+        <Button Content="5" Name="Button5" HorizontalAlignment="Left" Height="145" Margin="175,213,0,0" VerticalAlignment="Top" Width="145" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Foreground="Yellow"/>
+        <Button Content="6" Name="Button6" HorizontalAlignment="Left" Height="145" Margin="327,213,0,0" VerticalAlignment="Top" Width="146" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Foreground="Yellow"/>
+        <Button Content="7" Name="Button7" HorizontalAlignment="Left" Height="146" Margin="23,365,0,0" VerticalAlignment="Top" Width="145" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Foreground="Yellow"/>
+        <Button Content="8" Name="Button8" HorizontalAlignment="Left" Height="146" Margin="175,365,0,0" VerticalAlignment="Top" Width="145" FontSize="40" Click="Button1_Click" FontWeight="Bold" Background="Purple" Foreground="Yellow"/>
+        <Button Content="0" Name="Button0" HorizontalAlignment="Left" Height="100" Margin="327,365,0,0" VerticalAlignment="Top" Width="100" FontSize="40" Visibility="Hidden"/>
+        <Label x:Name="steps" Content="Lépésszám:" HorizontalAlignment="Left" Margin="230,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="newgame" Content="Új játék&#xD;&#xA;" HorizontalAlignment="Left" Margin="34,15,0,0" VerticalAlignment="Top" FontSize="14" Height="25" Width="80" Click="_new_Click" FontWeight="Bold" Foreground="Yellow" Background="Purple"/>
+        <Label x:Name="keszLabel" Content=" " HorizontalAlignment="Left" Margin="100,9,0,0" VerticalAlignment="Top" Foreground="Black" RenderTransformOrigin="0.615,0.462" FontSize="14" FontWeight="Bold"/>
+    </Grid>
+</Window>
